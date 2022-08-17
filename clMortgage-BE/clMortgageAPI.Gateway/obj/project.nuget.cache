@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "C0NkmfkQ2BP8eBZBQd6lu9FzNM0C+78O8WEosvL7+uihDQr415W1hUcZXwdAhKuVSHj7oM6Fkj1wFP4Yc4DPwA==",
+  "success": true,
+  "projectFilePath": "D:\\ClHomeLoan\\clMortgage-BE\\clMortgageAPI.Gateway\\clMortgageAPI.Gateway.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nagen\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\nagen\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\nagen\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\nagen\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\nagen\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\nagen\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

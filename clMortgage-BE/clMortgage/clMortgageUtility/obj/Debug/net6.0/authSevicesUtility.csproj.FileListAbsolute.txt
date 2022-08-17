@@ -1,0 +1,15 @@
+D:\clMortgageServices\clMortgage-BE\clMortgage\authSevicesUtility\bin\Debug\net6.0\authSevicesUtility.deps.json
+D:\clMortgageServices\clMortgage-BE\clMortgage\authSevicesUtility\bin\Debug\net6.0\authSevicesUtility.dll
+D:\clMortgageServices\clMortgage-BE\clMortgage\authSevicesUtility\bin\Debug\net6.0\authSevicesUtility.pdb
+D:\clMortgageServices\clMortgage-BE\clMortgage\authSevicesUtility\bin\Debug\net6.0\businessServices.dll
+D:\clMortgageServices\clMortgage-BE\clMortgage\authSevicesUtility\bin\Debug\net6.0\businessServices.pdb
+D:\clMortgageServices\clMortgage-BE\clMortgage\authSevicesUtility\obj\Debug\net6.0\authSevicesUtility.csproj.AssemblyReference.cache
+D:\clMortgageServices\clMortgage-BE\clMortgage\authSevicesUtility\obj\Debug\net6.0\authSevicesUtility.GeneratedMSBuildEditorConfig.editorconfig
+D:\clMortgageServices\clMortgage-BE\clMortgage\authSevicesUtility\obj\Debug\net6.0\authSevicesUtility.AssemblyInfoInputs.cache
+D:\clMortgageServices\clMortgage-BE\clMortgage\authSevicesUtility\obj\Debug\net6.0\authSevicesUtility.AssemblyInfo.cs
+D:\clMortgageServices\clMortgage-BE\clMortgage\authSevicesUtility\obj\Debug\net6.0\authSevicesUtility.csproj.CoreCompileInputs.cache
+D:\clMortgageServices\clMortgage-BE\clMortgage\authSevicesUtility\obj\Debug\net6.0\authSevicesUtility.csproj.CopyComplete
+D:\clMortgageServices\clMortgage-BE\clMortgage\authSevicesUtility\obj\Debug\net6.0\authSevicesUtility.dll
+D:\clMortgageServices\clMortgage-BE\clMortgage\authSevicesUtility\obj\Debug\net6.0\refint\authSevicesUtility.dll
+D:\clMortgageServices\clMortgage-BE\clMortgage\authSevicesUtility\obj\Debug\net6.0\authSevicesUtility.pdb
+D:\clMortgageServices\clMortgage-BE\clMortgage\authSevicesUtility\obj\Debug\net6.0\ref\authSevicesUtility.dll

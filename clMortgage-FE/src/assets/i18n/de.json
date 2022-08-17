@@ -1,0 +1,19 @@
+{
+  "MENUITEMS": {
+    "MAIN": {
+      "TEXT": "Main"
+    },
+    "DASHBOARD": {
+      "TEXT": "Dashboard",
+      "LIST": {
+        "DASHBOARD": "Dashboard"
+      }
+    },
+    "CUSTOMER": {    
+      "TEXT": "Customerin",
+      "LIST": {
+        "DASHBOARD": "Dashboard"
+      }
+    }
+  }
+}

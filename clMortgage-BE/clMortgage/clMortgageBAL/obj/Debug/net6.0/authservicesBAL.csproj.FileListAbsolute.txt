@@ -1,0 +1,17 @@
+D:\clMortgageServices\clMortgage-BE\clMortgage\clMortgageBAL\bin\Debug\net6.0\clMortgageBAL.deps.json
+D:\clMortgageServices\clMortgage-BE\clMortgage\clMortgageBAL\bin\Debug\net6.0\clMortgageBAL.dll
+D:\clMortgageServices\clMortgage-BE\clMortgage\clMortgageBAL\bin\Debug\net6.0\clMortgageBAL.pdb
+D:\clMortgageServices\clMortgage-BE\clMortgage\clMortgageBAL\obj\Debug\net6.0\clMortgageBAL.csproj.AssemblyReference.cache
+D:\clMortgageServices\clMortgage-BE\clMortgage\clMortgageBAL\obj\Debug\net6.0\clMortgageBAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\clMortgageServices\clMortgage-BE\clMortgage\clMortgageBAL\obj\Debug\net6.0\clMortgageBAL.AssemblyInfoInputs.cache
+D:\clMortgageServices\clMortgage-BE\clMortgage\clMortgageBAL\obj\Debug\net6.0\clMortgageBAL.AssemblyInfo.cs
+D:\clMortgageServices\clMortgage-BE\clMortgage\clMortgageBAL\obj\Debug\net6.0\clMortgageBAL.csproj.CoreCompileInputs.cache
+D:\clMortgageServices\clMortgage-BE\clMortgage\clMortgageBAL\obj\Debug\net6.0\clMortgageBAL.dll
+D:\clMortgageServices\clMortgage-BE\clMortgage\clMortgageBAL\obj\Debug\net6.0\refint\clMortgageBAL.dll
+D:\clMortgageServices\clMortgage-BE\clMortgage\clMortgageBAL\obj\Debug\net6.0\clMortgageBAL.pdb
+D:\clMortgageServices\clMortgage-BE\clMortgage\clMortgageBAL\obj\Debug\net6.0\ref\clMortgageBAL.dll
+D:\clMortgageServices\clMortgage-BE\clMortgage\clMortgageBAL\bin\Debug\net6.0\clMortgageDAL.dll
+D:\clMortgageServices\clMortgage-BE\clMortgage\clMortgageBAL\bin\Debug\net6.0\businessServices.dll
+D:\clMortgageServices\clMortgage-BE\clMortgage\clMortgageBAL\bin\Debug\net6.0\clMortgageDAL.pdb
+D:\clMortgageServices\clMortgage-BE\clMortgage\clMortgageBAL\bin\Debug\net6.0\businessServices.pdb
+D:\clMortgageServices\clMortgage-BE\clMortgage\clMortgageBAL\obj\Debug\net6.0\clMortgageBAL.csproj.CopyComplete

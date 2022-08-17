@@ -1,0 +1,211 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+        </div>
+        <div class="col-sm">
+            <div class="form-section">
+                <div class="auth-wrapper" style="margin-top: 6rem;">
+                    <p class="auth-signup-text text-muted"
+                        style="text-align: center; padding-bottom:0px;color:#2d7df5 !important;">Enter details to create
+                        your loan</p>
+                    <form class="validate-form" [formGroup]="authForm" (ngSubmit)="onSubmit()">
+                        <div class="row">
+                                    <div class="col-sm">
+                                        <div class="row">
+                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 mb-2">
+                                                <mat-form-field class="example-full-width" appearance="outline">
+                                                    <mat-label>First Name</mat-label>
+                                                    <input matInput formControlName="firstName" required>
+                                                    <mat-icon matSuffix>face</mat-icon>
+                                                    <mat-error *ngIf="authForm.get('firstName').hasError('required')">
+                                                        First Name is required
+                                                    </mat-error>
+                                                </mat-form-field>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 mb-2">
+                                                <mat-form-field class="example-full-width" appearance="outline">
+                                                    <mat-label>Last Name</mat-label>
+                                                    <input matInput formControlName="lastName" required>
+                                                    <mat-icon matSuffix>face</mat-icon>
+                                                    <mat-error *ngIf="authForm.get('lastName').hasError('required')">
+                                                        Last Name is required
+                                                    </mat-error>
+                                                </mat-form-field>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xl-12col-lg-12 col-md-12 col-sm-12 mb-2">
+                                                <mat-form-field class="example-full-width" appearance="outline">
+                                                    <mat-label>Email</mat-label>
+                                                    <input matInput formControlName="email" required>
+                                                    <mat-icon matSuffix>mail</mat-icon>
+                                                    <mat-error
+                                                        *ngIf="authForm.get('email').hasError('required') || authForm.get('email').touched">
+                                                        Please enter a valid email address
+                                                    </mat-error>
+                                                </mat-form-field>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 mb-2">
+                                                <mat-form-field class="example-full-width" appearance="outline">
+                                                    <mat-label>Mobile Number</mat-label>
+                                                    <input matInput formControlName="mobileNumber" required>
+                                                    <mat-icon matSuffix>mobile_screen_share</mat-icon>
+                                                    <mat-error
+                                                        *ngIf="authForm.get('mobileNumber').hasError('required')">
+                                                        Mobile Numbere is required
+                                                    </mat-error>
+                                                </mat-form-field>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 mb-2">
+                                                <mat-form-field class="example-full-width" appearance="outline">
+                                                    <mat-label>Income of source</mat-label>
+                                                    <input matInput formControlName="source" required type="number">
+                                                    <mat-icon matSuffix>attach_money</mat-icon>
+                                                    <mat-error *ngIf="authForm.get('source').hasError('required')">
+                                                        Income of source is required
+                                                    </mat-error>
+                                                </mat-form-field>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 mb-2">
+                                                <mat-form-field class="example-full-width" appearance="outline">
+                                                    <mat-label>Loan Purpose</mat-label>
+                                                    <input matInput formControlName="loanPurpose" required
+                                                        type="number">
+                                                    <mat-icon matSuffix>home</mat-icon>
+                                                    <mat-error *ngIf="authForm.get('loanPurpose').hasError('required')">
+                                                        Loan Purpose is required
+                                                    </mat-error>
+                                                </mat-form-field>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 mb-2">
+                                                <mat-form-field class="example-full-width" appearance="outline">
+                                                    <mat-label>Salaried Recived As</mat-label>
+                                                    <input matInput formControlName="salariedRecived" required
+                                                        type="number">
+                                                    <mat-icon matSuffix>attach_money</mat-icon>
+                                                    <mat-error
+                                                        *ngIf="authForm.get('salariedRecived').hasError('required')">
+                                                        Salaried Recived is required
+                                                    </mat-error>
+                                                </mat-form-field>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm">
+                                        <div formGroupName="propertyLocation">
+                                            <div class="row">
+                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 mb-2">
+                                                    <mat-form-field class="example-full-width" appearance="outline">
+                                                        <mat-label>Hose No</mat-label>
+                                                        <input matInput formControlName="huseNo" required>
+                                                        <mat-icon matSuffix>House</mat-icon>
+                                                        <mat-error
+                                                            *ngIf="propertyLocation.get('huseNo').hasError('required')">
+                                                            House No is required
+                                                        </mat-error>
+                                                    </mat-form-field>
+                                                </div>
+                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 mb-2">
+                                                    <mat-form-field class="example-full-width" appearance="outline">
+                                                        <mat-label>City</mat-label>
+                                                        <input matInput formControlName="city" required>
+                                                        <mat-icon matSuffix>location_city</mat-icon>
+                                                        <mat-error
+                                                            *ngIf="propertyLocation.get('city').hasError('required')">
+                                                            City is required
+                                                        </mat-error>
+                                                    </mat-form-field>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 mb-2">
+                                                    <mat-form-field class="example-full-width" appearance="outline">
+                                                        <mat-label>Pin Code</mat-label>
+                                                        <input matInput formControlName="pinNo" required>
+                                                        <mat-icon matSuffix>person_pin_circle</mat-icon>
+                                                        <mat-error
+                                                            *ngIf="propertyLocation.get('pinNo').hasError('required')">
+                                                            Pin Code is required
+                                                        </mat-error>
+                                                    </mat-form-field>
+                                                </div>
+                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 mb-2">
+                                                    <mat-form-field class="example-full-width" appearance="outline">
+                                                        <mat-label>State</mat-label>
+                                                        <input matInput formControlName="state" required>
+                                                        <mat-icon matSuffix>location_city</mat-icon>
+                                                        <mat-error
+                                                            *ngIf="propertyLocation.get('state').hasError('required')">
+                                                            State is required
+                                                        </mat-error>
+                                                    </mat-form-field>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 mb-2">
+                                                <mat-form-field class="example-full-width" appearance="outline">
+                                                    <mat-label>DOB</mat-label>
+                                                    <input matInput [matDatepicker]="picker" placeholder="Choose a date"
+                                                        type="datetime" formControlName="dob">
+                                                    <mat-datepicker-toggle matSuffix [for]="picker">
+                                                    </mat-datepicker-toggle>
+                                                    <mat-datepicker #picker></mat-datepicker>
+                                                    <mat-error *ngIf="authForm.get('dob').hasError('required')">
+                                                        DOB is required
+                                                    </mat-error>
+                                                </mat-form-field>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 mb-2">
+                                                <mat-form-field class="example-full-width" appearance="outline">
+                                                    <mat-label>Company Name</mat-label>
+                                                    <input matInput formControlName="workingCompany" required>
+                                                    <mat-icon matSuffix>local_convenience_store</mat-icon>
+                                                    <mat-error
+                                                        *ngIf="authForm.get('workingCompany').hasError('required')">
+                                                        Company Name is required
+                                                    </mat-error>
+                                                </mat-form-field>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 mb-2">
+                                                <mat-form-field class="example-full-width" appearance="outline">
+                                                    <mat-label>Gross Salary per month</mat-label>
+                                                    <input matInput formControlName="grossSalary" required
+                                                        type="number">
+                                                    <mat-icon matSuffix>attach_money</mat-icon>
+                                                    <mat-error *ngIf="authForm.get('grossSalary').hasError('required')">
+                                                        Gross Salary is required
+                                                    </mat-error>
+                                                </mat-form-field>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 mb-2">
+                                                <mat-form-field class="example-full-width" appearance="outline">
+                                                    <mat-label>Account Number</mat-label>
+                                                    <input matInput formControlName="accountNumber">
+                                                    <mat-icon matSuffix>account_balance</mat-icon>
+                                                </mat-form-field>
+                                            </div>
+                                        </div>
+                                    </div>
+                            <div class="container-auth-form-btn">
+                                <button mat-flat-button color="primary" class="auth-form-btn" [disabled]="!authForm.valid"
+                                    type="submit">
+                                    {{onEdit ? 'Save Edit' : 'Save'}}
+                                </button>
+                            </div>
+                            </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-sm">
+        </div>
+    </div>
+</div>
